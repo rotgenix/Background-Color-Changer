@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Button = ({ backColor, colorSetting }) => {
-    console.log(backColor);
+    
     return (
         <>
             <button

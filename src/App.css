@@ -25,7 +25,7 @@
   height: 72px;
   background-color: SlateGrey;
   border-radius: 5px;
-
+  
   padding-inline: 15px;
   display: flex;
   align-items: center;
@@ -43,4 +43,23 @@ button {
   /* background-color: Snow; */
   border: none;
   outline: none;
+}
+
+@media (max-width:700px) {
+  .btns{
+    background-color: transparent;
+    flex-direction: column;
+    height: 250px;
+  }
+    .home {
+  
+      gap: 100px;
+  
+    }
+}
+@media (max-width:400px) {
+  .text h1{
+    font-size: 24px;
+  }
+   
 }

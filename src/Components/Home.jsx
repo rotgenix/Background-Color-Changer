@@ -24,11 +24,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="text">
-                    <div className="text">
-                        <h1>
-                            Theme Color is : {color}
-                        </h1>
-                    </div>
+                    <h1>
+                        Theme Color is : {color}
+                    </h1>
                 </div>
             </div>
         </>
